@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3906835C22D7D9A100190B5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3906835B22D7D9A100190B5A /* AppDelegate.swift */; };
+		3906835E22D7D9A100190B5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3906835D22D7D9A100190B5A /* ViewController.swift */; };
+		3906836122D7D9A100190B5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3906835F22D7D9A100190B5A /* Main.storyboard */; };
+		3906836322D7D9A400190B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3906836222D7D9A400190B5A /* Assets.xcassets */; };
+		3906836622D7D9A400190B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3906836422D7D9A400190B5A /* LaunchScreen.storyboard */; };
+		3906837122D7D9A400190B5A /* Restaurante_NoknoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3906837022D7D9A400190B5A /* Restaurante_NoknoxTests.swift */; };
+		3906837C22D7D9A400190B5A /* Restaurante_NoknoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3906837B22D7D9A400190B5A /* Restaurante_NoknoxUITests.swift */; };
+		3E4FD5194F88590928E7BED6 /* Pods_Restaurante_NoknoxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2265665A0FF877FC71576A /* Pods_Restaurante_NoknoxTests.framework */; };
+		5FCEB75042572981BCB9071E /* Pods_Restaurante_Noknox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5D339E1B6FCB4F1E5FD8D /* Pods_Restaurante_Noknox.framework */; };
+		C542B9CF8471836BA11C98B8 /* Pods_Restaurante_NoknoxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383DEDA55C997A76E98A5A53 /* Pods_Restaurante_NoknoxUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3906836D22D7D9A400190B5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3906835022D7D9A100190B5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3906835722D7D9A100190B5A;
+			remoteInfo = "Restaurante Noknox";
+		};
+		3906837822D7D9A400190B5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3906835022D7D9A100190B5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3906835722D7D9A100190B5A;
+			remoteInfo = "Restaurante Noknox";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		383DEDA55C997A76E98A5A53 /* Pods_Restaurante_NoknoxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Restaurante_NoknoxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3906835822D7D9A100190B5A /* Restaurante Noknox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Restaurante Noknox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3906835B22D7D9A100190B5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3906835D22D7D9A100190B5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3906836022D7D9A100190B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3906836222D7D9A400190B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3906836522D7D9A400190B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3906836722D7D9A400190B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3906836C22D7D9A400190B5A /* Restaurante NoknoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Restaurante NoknoxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3906837022D7D9A400190B5A /* Restaurante_NoknoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurante_NoknoxTests.swift; sourceTree = "<group>"; };
+		3906837222D7D9A400190B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3906837722D7D9A400190B5A /* Restaurante NoknoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Restaurante NoknoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3906837B22D7D9A400190B5A /* Restaurante_NoknoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurante_NoknoxUITests.swift; sourceTree = "<group>"; };
+		3906837D22D7D9A400190B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6011624B6FEBB17B37CEB9 /* Pods-Restaurante NoknoxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Restaurante NoknoxUITests.debug.xcconfig"; path = "Target Support Files/Pods-Restaurante NoknoxUITests/Pods-Restaurante NoknoxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BC5D339E1B6FCB4F1E5FD8D /* Pods_Restaurante_Noknox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Restaurante_Noknox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7630B28F86AA43E8CBEC2E2C /* Pods-Restaurante Noknox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Restaurante Noknox.release.xcconfig"; path = "Target Support Files/Pods-Restaurante Noknox/Pods-Restaurante Noknox.release.xcconfig"; sourceTree = "<group>"; };
+		9FD5B592AB39EEB742477255 /* Pods-Restaurante NoknoxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Restaurante NoknoxTests.debug.xcconfig"; path = "Target Support Files/Pods-Restaurante NoknoxTests/Pods-Restaurante NoknoxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0FC39003D5C0ADD914467FB /* Pods-Restaurante NoknoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Restaurante NoknoxTests.release.xcconfig"; path = "Target Support Files/Pods-Restaurante NoknoxTests/Pods-Restaurante NoknoxTests.release.xcconfig"; sourceTree = "<group>"; };
+		E72F1FADE729DF1D7DFFC214 /* Pods-Restaurante NoknoxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Restaurante NoknoxUITests.release.xcconfig"; path = "Target Support Files/Pods-Restaurante NoknoxUITests/Pods-Restaurante NoknoxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA2265665A0FF877FC71576A /* Pods_Restaurante_NoknoxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Restaurante_NoknoxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6B58B8017FE26C707B57B9 /* Pods-Restaurante Noknox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Restaurante Noknox.debug.xcconfig"; path = "Target Support Files/Pods-Restaurante Noknox/Pods-Restaurante Noknox.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3906835522D7D9A100190B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCEB75042572981BCB9071E /* Pods_Restaurante_Noknox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3906836922D7D9A400190B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4FD5194F88590928E7BED6 /* Pods_Restaurante_NoknoxTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3906837422D7D9A400190B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C542B9CF8471836BA11C98B8 /* Pods_Restaurante_NoknoxUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3906834F22D7D9A100190B5A = {
+			isa = PBXGroup;
+			children = (
+				3906835A22D7D9A100190B5A /* Restaurante Noknox */,
+				3906836F22D7D9A400190B5A /* Restaurante NoknoxTests */,
+				3906837A22D7D9A400190B5A /* Restaurante NoknoxUITests */,
+				3906835922D7D9A100190B5A /* Products */,
+				FF166D698E1B19D77C0D7D6D /* Pods */,
+				E4A7B12EF76CD5766044B3AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3906835922D7D9A100190B5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3906835822D7D9A100190B5A /* Restaurante Noknox.app */,
+				3906836C22D7D9A400190B5A /* Restaurante NoknoxTests.xctest */,
+				3906837722D7D9A400190B5A /* Restaurante NoknoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3906835A22D7D9A100190B5A /* Restaurante Noknox */ = {
+			isa = PBXGroup;
+			children = (
+				3906835B22D7D9A100190B5A /* AppDelegate.swift */,
+				3906835D22D7D9A100190B5A /* ViewController.swift */,
+				3906835F22D7D9A100190B5A /* Main.storyboard */,
+				3906836222D7D9A400190B5A /* Assets.xcassets */,
+				3906836422D7D9A400190B5A /* LaunchScreen.storyboard */,
+				3906836722D7D9A400190B5A /* Info.plist */,
+			);
+			path = "Restaurante Noknox";
+			sourceTree = "<group>";
+		};
+		3906836F22D7D9A400190B5A /* Restaurante NoknoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				3906837022D7D9A400190B5A /* Restaurante_NoknoxTests.swift */,
+				3906837222D7D9A400190B5A /* Info.plist */,
+			);
+			path = "Restaurante NoknoxTests";
+			sourceTree = "<group>";
+		};
+		3906837A22D7D9A400190B5A /* Restaurante NoknoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3906837B22D7D9A400190B5A /* Restaurante_NoknoxUITests.swift */,
+				3906837D22D7D9A400190B5A /* Info.plist */,
+			);
+			path = "Restaurante NoknoxUITests";
+			sourceTree = "<group>";
+		};
+		E4A7B12EF76CD5766044B3AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BC5D339E1B6FCB4F1E5FD8D /* Pods_Restaurante_Noknox.framework */,
+				FA2265665A0FF877FC71576A /* Pods_Restaurante_NoknoxTests.framework */,
+				383DEDA55C997A76E98A5A53 /* Pods_Restaurante_NoknoxUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF166D698E1B19D77C0D7D6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA6B58B8017FE26C707B57B9 /* Pods-Restaurante Noknox.debug.xcconfig */,
+				7630B28F86AA43E8CBEC2E2C /* Pods-Restaurante Noknox.release.xcconfig */,
+				9FD5B592AB39EEB742477255 /* Pods-Restaurante NoknoxTests.debug.xcconfig */,
+				D0FC39003D5C0ADD914467FB /* Pods-Restaurante NoknoxTests.release.xcconfig */,
+				3B6011624B6FEBB17B37CEB9 /* Pods-Restaurante NoknoxUITests.debug.xcconfig */,
+				E72F1FADE729DF1D7DFFC214 /* Pods-Restaurante NoknoxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3906835722D7D9A100190B5A /* Restaurante Noknox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3906838022D7D9A400190B5A /* Build configuration list for PBXNativeTarget "Restaurante Noknox" */;
+			buildPhases = (
+				600E36CFB183E023303E868C /* [CP] Check Pods Manifest.lock */,
+				3906835422D7D9A100190B5A /* Sources */,
+				3906835522D7D9A100190B5A /* Frameworks */,
+				3906835622D7D9A100190B5A /* Resources */,
+				31B8D444268EEAD337DC1212 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Restaurante Noknox";
+			productName = "Restaurante Noknox";
+			productReference = 3906835822D7D9A100190B5A /* Restaurante Noknox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3906836B22D7D9A400190B5A /* Restaurante NoknoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3906838322D7D9A400190B5A /* Build configuration list for PBXNativeTarget "Restaurante NoknoxTests" */;
+			buildPhases = (
+				1B4DC827B17D99BEF1052F0A /* [CP] Check Pods Manifest.lock */,
+				3906836822D7D9A400190B5A /* Sources */,
+				3906836922D7D9A400190B5A /* Frameworks */,
+				3906836A22D7D9A400190B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3906836E22D7D9A400190B5A /* PBXTargetDependency */,
+			);
+			name = "Restaurante NoknoxTests";
+			productName = "Restaurante NoknoxTests";
+			productReference = 3906836C22D7D9A400190B5A /* Restaurante NoknoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3906837622D7D9A400190B5A /* Restaurante NoknoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3906838622D7D9A400190B5A /* Build configuration list for PBXNativeTarget "Restaurante NoknoxUITests" */;
+			buildPhases = (
+				3C1888F23A15DC666298B6CD /* [CP] Check Pods Manifest.lock */,
+				3906837322D7D9A400190B5A /* Sources */,
+				3906837422D7D9A400190B5A /* Frameworks */,
+				3906837522D7D9A400190B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3906837922D7D9A400190B5A /* PBXTargetDependency */,
+			);
+			name = "Restaurante NoknoxUITests";
+			productName = "Restaurante NoknoxUITests";
+			productReference = 3906837722D7D9A400190B5A /* Restaurante NoknoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3906835022D7D9A100190B5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Fernando Gomes";
+				TargetAttributes = {
+					3906835722D7D9A100190B5A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					3906836B22D7D9A400190B5A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3906835722D7D9A100190B5A;
+					};
+					3906837622D7D9A400190B5A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3906835722D7D9A100190B5A;
+					};
+				};
+			};
+			buildConfigurationList = 3906835322D7D9A100190B5A /* Build configuration list for PBXProject "Restaurante Noknox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3906834F22D7D9A100190B5A;
+			productRefGroup = 3906835922D7D9A100190B5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3906835722D7D9A100190B5A /* Restaurante Noknox */,
+				3906836B22D7D9A400190B5A /* Restaurante NoknoxTests */,
+				3906837622D7D9A400190B5A /* Restaurante NoknoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3906835622D7D9A100190B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3906836622D7D9A400190B5A /* LaunchScreen.storyboard in Resources */,
+				3906836322D7D9A400190B5A /* Assets.xcassets in Resources */,
+				3906836122D7D9A100190B5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3906836A22D7D9A400190B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3906837522D7D9A400190B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B4DC827B17D99BEF1052F0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Restaurante NoknoxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31B8D444268EEAD337DC1212 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Restaurante Noknox/Pods-Restaurante Noknox-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Restaurante Noknox/Pods-Restaurante Noknox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C1888F23A15DC666298B6CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Restaurante NoknoxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		600E36CFB183E023303E868C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Restaurante Noknox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3906835422D7D9A100190B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3906835E22D7D9A100190B5A /* ViewController.swift in Sources */,
+				3906835C22D7D9A100190B5A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3906836822D7D9A400190B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3906837122D7D9A400190B5A /* Restaurante_NoknoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3906837322D7D9A400190B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3906837C22D7D9A400190B5A /* Restaurante_NoknoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3906836E22D7D9A400190B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3906835722D7D9A100190B5A /* Restaurante Noknox */;
+			targetProxy = 3906836D22D7D9A400190B5A /* PBXContainerItemProxy */;
+		};
+		3906837922D7D9A400190B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3906835722D7D9A100190B5A /* Restaurante Noknox */;
+			targetProxy = 3906837822D7D9A400190B5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3906835F22D7D9A100190B5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3906836022D7D9A100190B5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3906836422D7D9A400190B5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3906836522D7D9A400190B5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3906837E22D7D9A400190B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3906837F22D7D9A400190B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3906838122D7D9A400190B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA6B58B8017FE26C707B57B9 /* Pods-Restaurante Noknox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VK3DVAF4J;
+				INFOPLIST_FILE = "Restaurante Noknox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fernandogomes.Restaurante-Noknox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3906838222D7D9A400190B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7630B28F86AA43E8CBEC2E2C /* Pods-Restaurante Noknox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VK3DVAF4J;
+				INFOPLIST_FILE = "Restaurante Noknox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fernandogomes.Restaurante-Noknox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3906838422D7D9A400190B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FD5B592AB39EEB742477255 /* Pods-Restaurante NoknoxTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VK3DVAF4J;
+				INFOPLIST_FILE = "Restaurante NoknoxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fernandogomes.Restaurante-NoknoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Restaurante Noknox.app/Restaurante Noknox";
+			};
+			name = Debug;
+		};
+		3906838522D7D9A400190B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FC39003D5C0ADD914467FB /* Pods-Restaurante NoknoxTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VK3DVAF4J;
+				INFOPLIST_FILE = "Restaurante NoknoxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fernandogomes.Restaurante-NoknoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Restaurante Noknox.app/Restaurante Noknox";
+			};
+			name = Release;
+		};
+		3906838722D7D9A400190B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B6011624B6FEBB17B37CEB9 /* Pods-Restaurante NoknoxUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VK3DVAF4J;
+				INFOPLIST_FILE = "Restaurante NoknoxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fernandogomes.Restaurante-NoknoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Restaurante Noknox";
+			};
+			name = Debug;
+		};
+		3906838822D7D9A400190B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E72F1FADE729DF1D7DFFC214 /* Pods-Restaurante NoknoxUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VK3DVAF4J;
+				INFOPLIST_FILE = "Restaurante NoknoxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fernandogomes.Restaurante-NoknoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Restaurante Noknox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3906835322D7D9A100190B5A /* Build configuration list for PBXProject "Restaurante Noknox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3906837E22D7D9A400190B5A /* Debug */,
+				3906837F22D7D9A400190B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3906838022D7D9A400190B5A /* Build configuration list for PBXNativeTarget "Restaurante Noknox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3906838122D7D9A400190B5A /* Debug */,
+				3906838222D7D9A400190B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3906838322D7D9A400190B5A /* Build configuration list for PBXNativeTarget "Restaurante NoknoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3906838422D7D9A400190B5A /* Debug */,
+				3906838522D7D9A400190B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3906838622D7D9A400190B5A /* Build configuration list for PBXNativeTarget "Restaurante NoknoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3906838722D7D9A400190B5A /* Debug */,
+				3906838822D7D9A400190B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3906835022D7D9A100190B5A /* Project object */;
+}
