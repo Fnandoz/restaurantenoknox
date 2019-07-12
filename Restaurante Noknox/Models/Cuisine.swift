@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class Cusine: Mappable {
+class Cuisine: Mappable {
     var id: Int?
     var name: String?
     
