@@ -8,13 +8,14 @@
 
 import UIKit
 import MapKit
+import CoreLocation
 
-class CuisineViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class CuisineViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate {
     @IBOutlet weak var cuisineTableView: UITableView!
     var cuisines: [Cuisine] = []
     var selectedCuisines: [String] = []
-    var lat: Double = 0.0
-    var lng: Double = 0.0
+    var lat = Double()
+    var lng = Double()
     var locManager = CLLocationManager()
     
     
@@ -51,6 +52,11 @@ class CuisineViewController: UIViewController, UITableViewDelegate, UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.locManager.delegate = self
+        self.locManager.desiredAccuracy = kCLLocationAccuracyBest
+        self.locManager.requestAlwaysAuthorization()
+        self.locManager.startUpdatingLocation()
+        
         if (CLLocationManager.authorizationStatus() == CLAuthorizationStatus.authorizedWhenInUse ||
             CLLocationManager.authorizationStatus() == CLAuthorizationStatus.authorizedAlways){
             guard let currentLocation = locManager.location else {
@@ -71,6 +77,30 @@ class CuisineViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     @IBAction func nextACtion(_ sender: Any) {
+//        let restaurantsVC = self.storyboard?.instantiateViewController(withIdentifier: "restaurantsVC") as! RestaurantsViewController
+//        restaurantsVC.selectedCuisines = self.selectedCuisines
+//        restaurantsVC.lat = self.lat
+//        restaurantsVC.lng = self.lng
+//        self.present(restaurantsVC, animated: true, completion: nil)
         
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+        if segue.identifier == "restaurantsSegue" {
+            let destinationVC = segue.destination as! RestaurantsViewController
+            destinationVC.selectedCuisines = self.selectedCuisines
+            destinationVC.lat = self.lat
+            destinationVC.lng = self.lng
+
+        }
+        
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let locValue:CLLocationCoordinate2D = manager.location!.coordinate
+        self.lat = locValue.latitude
+        self.lng = locValue.longitude
     }
 }
