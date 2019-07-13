@@ -39,5 +39,16 @@ class RestaurantsViewController: UIViewController, UITableViewDelegate, UITableV
         cell.detailTextLabel?.text = "⭑ \(restaurant.rating ?? "")"
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
+        if segue.identifier == "restaurantSegue" {
+            var indexPath = self.tableView.indexPath(for: sender as! UITableViewCell)
+            let destinationVC = segue.destination as! RestaurantViewController
+            destinationVC.restaurant = restaurants[indexPath!.row]
+            
+        }
+        
+    }
 
 }
