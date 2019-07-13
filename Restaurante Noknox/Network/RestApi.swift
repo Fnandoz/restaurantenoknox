@@ -43,7 +43,7 @@ class RestApi: RestApiProtocol {
         
         Alamofire.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: ["Content-Type": "application/json", "Authorization":"Bearer "+authToken]).validate().responseString {
             (response: DataResponse<String>) in
-            let restaurants = Mapper<Restaurant>().mapArray(JSONfile: response.value!)
+            let restaurants = Mapper<Restaurant>().mapArray(JSONString: response.value!)
             callback(restaurants!)
         }
     }

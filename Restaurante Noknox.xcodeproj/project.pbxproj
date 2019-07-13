@@ -14,6 +14,8 @@
 		3906836622D7D9A400190B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3906836422D7D9A400190B5A /* LaunchScreen.storyboard */; };
 		3906837122D7D9A400190B5A /* Restaurante_NoknoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3906837022D7D9A400190B5A /* Restaurante_NoknoxTests.swift */; };
 		3906837C22D7D9A400190B5A /* Restaurante_NoknoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3906837B22D7D9A400190B5A /* Restaurante_NoknoxUITests.swift */; };
+		3910EE2022DA472800D67E15 /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3910EE1F22DA472800D67E15 /* RestaurantsViewController.swift */; };
+		3910EE2222DA7ADC00D67E15 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3910EE2122DA7ADC00D67E15 /* CoreLocation.framework */; };
 		3943D34C22D81270008F4AF0 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3943D34B22D81270008F4AF0 /* Auth.swift */; };
 		3943D34E22D812B1008F4AF0 /* Cuisine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3943D34D22D812B1008F4AF0 /* Cuisine.swift */; };
 		3943D35022D812C7008F4AF0 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3943D34F22D812C7008F4AF0 /* Restaurant.swift */; };
@@ -59,6 +61,8 @@
 		3906837722D7D9A400190B5A /* Restaurante NoknoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Restaurante NoknoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3906837B22D7D9A400190B5A /* Restaurante_NoknoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurante_NoknoxUITests.swift; sourceTree = "<group>"; };
 		3906837D22D7D9A400190B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3910EE1F22DA472800D67E15 /* RestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsViewController.swift; sourceTree = "<group>"; };
+		3910EE2122DA7ADC00D67E15 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		3943D34B22D81270008F4AF0 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		3943D34D22D812B1008F4AF0 /* Cuisine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuisine.swift; sourceTree = "<group>"; };
 		3943D34F22D812C7008F4AF0 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
@@ -82,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3910EE2222DA7ADC00D67E15 /* CoreLocation.framework in Frameworks */,
 				5FCEB75042572981BCB9071E /* Pods_Restaurante_Noknox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +146,7 @@
 				3906836722D7D9A400190B5A /* Info.plist */,
 				3943D35C22D918BC008F4AF0 /* LoginViewController.swift */,
 				39DAB9D522D9226900AEF743 /* CuisineViewController.swift */,
+				3910EE1F22DA472800D67E15 /* RestaurantsViewController.swift */,
 			);
 			path = "Restaurante Noknox";
 			sourceTree = "<group>";
@@ -209,6 +215,7 @@
 		E4A7B12EF76CD5766044B3AD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3910EE2122DA7ADC00D67E15 /* CoreLocation.framework */,
 				3BC5D339E1B6FCB4F1E5FD8D /* Pods_Restaurante_Noknox.framework */,
 				FA2265665A0FF877FC71576A /* Pods_Restaurante_NoknoxTests.framework */,
 				383DEDA55C997A76E98A5A53 /* Pods_Restaurante_NoknoxUITests.framework */,
@@ -461,6 +468,7 @@
 			files = (
 				3943D35D22D918BC008F4AF0 /* LoginViewController.swift in Sources */,
 				39DAB9D622D9226900AEF743 /* CuisineViewController.swift in Sources */,
+				3910EE2022DA472800D67E15 /* RestaurantsViewController.swift in Sources */,
 				3943D35022D812C7008F4AF0 /* Restaurant.swift in Sources */,
 				3906835E22D7D9A100190B5A /* ViewController.swift in Sources */,
 				3943D35322D8D8D6008F4AF0 /* RestApi.swift in Sources */,

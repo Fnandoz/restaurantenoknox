@@ -24,10 +24,16 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
-    <key>NSLocationAlwaysUsageDescription</key>
-    <string>Get near restaurants</string>
+    
     <key>NSLocationWhenInUseUsageDescription</key>
     <string>Get near restaurants</string>
+    
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Get near restaurants</string>
+    
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Get near restaurants</string>
+    
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
