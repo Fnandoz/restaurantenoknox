@@ -10,5 +10,5 @@ import Foundation
 
 class Constants {
     public static let BaseUrl = "https://syqkl02isj.execute-api.us-east-1.amazonaws.com/dev"
-
+    public static let Token = "acess_token"
 }

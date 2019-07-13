@@ -21,7 +21,7 @@ protocol RestApiProtocol {
 class RestApi: RestApiProtocol {
     static func makeLogin(username: String, password: String, callback: @escaping (Auth?) -> Void, error: @escaping () -> Void) {
         let url = Constants.BaseUrl + "/token"
-        Alamofire.request(url, method: .post, parameters: ["grant_type":"password", "username":username, "password":password], encoding: URLEncoding.default, headers: ["Content-Type": "application/json"]).validate().responseString { (response: DataResponse<String>) in
+        Alamofire.request(url, method: .post, parameters: ["grant_type":"password", "username":username, "password":password], encoding: JSONEncoding.default, headers: ["Content-Type": "application/json"]).validate().responseString { (response: DataResponse<String>) in
             let auth = Mapper<Auth>().map(JSONString: response.value!)
             callback(auth)
         }
@@ -29,10 +29,10 @@ class RestApi: RestApiProtocol {
     
     static func getCuisine(lat: Double, lng: Double, authToken: String, callback: @escaping ([Cuisine]) -> Void, error: @escaping () -> Void) {
         let url = Constants.BaseUrl + "/cuisine?lat=\(lat)&lng=\(lng)"
-        Alamofire.request(url, method: .get, parameters: nil, encoding: URLEncoding.default, headers:
+        Alamofire.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default, headers:
             ["Content-Type": "application/json", "Authorization":"Bearer "+authToken]).validate().responseString {
                 (response: DataResponse<String>) in
-                let cuisines = Mapper<Cuisine>().mapArray(JSONfile: response.value!)
+                let cuisines = Mapper<Cuisine>().mapArray(JSONString: response.value!)
                 callback(cuisines!)
         }
         
@@ -41,9 +41,9 @@ class RestApi: RestApiProtocol {
     static func getRestaurant(lat: Double, lng: Double, cuisines: String, authToken: String, callback: @escaping ([Restaurant]) -> Void, error: @escaping () -> Void) {
         let url = Constants.BaseUrl + "/restaurant?lat=\(lat)&lng=\(lng)&cuisines=\(cuisines)"
         
-        Alamofire.request(url, method: .get, parameters: nil, encoding: URLEncoding.default, headers: ["Content-Type": "application/json", "Authorization":"Bearer "+authToken]).validate().responseString {
+        Alamofire.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: ["Content-Type": "application/json", "Authorization":"Bearer "+authToken]).validate().responseString {
             (response: DataResponse<String>) in
-            let restaurants = Mapper<Restaurant>().mapArray(JSONfile: response.value!)
+            let restaurants = Mapper<Restaurant>().mapArray(JSONString: response.value!)
             callback(restaurants!)
         }
     }
