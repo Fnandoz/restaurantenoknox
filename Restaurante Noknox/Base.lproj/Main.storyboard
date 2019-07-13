@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="S93-4P-uO5">
+
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -20,26 +22,32 @@
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uvR-Yx-SF4">
                                 <rect key="frame" x="8" y="352" width="398" height="30"/>
+
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nqa-ew-ou8">
                                 <rect key="frame" x="8" y="407" width="398" height="30"/>
+
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
+
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNl-0y-Bxh">
                                 <rect key="frame" x="188" y="486" width="38" height="30"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="loginAction:" destination="S93-4P-uO5" eventType="touchUpInside" id="ofI-N5-oNo"/>
+
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+
                             <constraint firstItem="nqa-ew-ou8" firstAttribute="leading" secondItem="UvX-oi-JCY" secondAttribute="leading" constant="8" id="4ZT-Fa-9j1"/>
                             <constraint firstItem="xNl-0y-Bxh" firstAttribute="leading" secondItem="UvX-oi-JCY" secondAttribute="leading" constant="188" id="FZd-hO-PsG"/>
                             <constraint firstItem="UvX-oi-JCY" firstAttribute="trailing" secondItem="uvR-Yx-SF4" secondAttribute="trailing" constant="8" id="QCU-GH-e5R"/>
@@ -123,6 +131,7 @@
                     <connections>
                         <outlet property="cuisineTableView" destination="SEx-en-tJc" id="eyR-KU-X3b"/>
                     </connections>
+
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QGS-pf-KEK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -252,7 +261,9 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W9p-42-CJc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+
             <point key="canvasLocation" x="1859" y="125"/>
+
         </scene>
     </scenes>
 </document>
