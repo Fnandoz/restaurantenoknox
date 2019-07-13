@@ -28,13 +28,13 @@ class LoginViewController: UIViewController {
                 UserDefaults.standard.set(auth?.access_token, forKey: Constants.Token)
                 self.setExpireTokenDate(auth: auth!)
                 self.goToCuisineViewController()
+                
             }, error: {})
         }
     }
     
     func goToCuisineViewController() {
-        let cuisinesVC = self.storyboard?.instantiateViewController(withIdentifier: "cuisineVC") as! CuisineViewController
-        self.present(cuisinesVC, animated: true, completion: nil)
+        self.performSegue(withIdentifier: "cuisineSegue", sender: self)
     }
     
     /*
@@ -69,4 +69,5 @@ class LoginViewController: UIViewController {
             }
         }
     }
+    
 }
