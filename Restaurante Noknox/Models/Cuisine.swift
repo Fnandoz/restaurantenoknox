@@ -10,7 +10,7 @@ import Foundation
 import ObjectMapper
 
 class Cuisine: Mappable {
-    var id: Int?
+    var id: String?
     var name: String?
     
     required init?(map: Map) {
