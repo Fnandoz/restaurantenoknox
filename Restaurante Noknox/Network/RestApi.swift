@@ -32,7 +32,7 @@ class RestApi: RestApiProtocol {
         Alamofire.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default, headers:
             ["Content-Type": "application/json", "Authorization":"Bearer "+authToken]).validate().responseString {
                 (response: DataResponse<String>) in
-                let cuisines = Mapper<Cuisine>().mapArray(JSONfile: response.value!)
+                let cuisines = Mapper<Cuisine>().mapArray(JSONString: response.value!)
                 callback(cuisines!)
         }
         

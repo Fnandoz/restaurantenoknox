@@ -29,7 +29,8 @@ class LoginViewController: UIViewController {
     }
     
     func goToCuisineViewController() {
-
+        let cuisinesVC = self.storyboard?.instantiateViewController(withIdentifier: "cuisineVC") as! CuisineViewController
+        self.present(cuisinesVC, animated: true, completion: nil)
     }
     
     /*
