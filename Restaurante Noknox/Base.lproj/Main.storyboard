@@ -102,7 +102,6 @@
                                 <rect key="frame" x="180" y="832" width="55" height="30"/>
                                 <state key="normal" title="Avançar"/>
                                 <connections>
-                                    <action selector="nextACtion:" destination="vuu-8u-jsN" eventType="touchUpInside" id="gPt-B7-tf4"/>
                                     <segue destination="p5R-PT-pOG" kind="show" identifier="restaurantsSegue" id="3k6-XD-Rui"/>
                                 </connections>
                             </button>
