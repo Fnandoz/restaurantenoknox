@@ -17,7 +17,7 @@ class RestaurantViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.nameLabel.text = restaurant?.name
-        self.ratingLabel.text = "⭑ \(restaurant?.rating ?? "")"
+        self.ratingLabel.text = "⭑ \(restaurant?.rating ?? "-")"
         if !(restaurant?.imageUrl!.isEmpty)! {
             restaurantImage.download(from: URL(string: restaurant!.imageUrl!)!)
         }

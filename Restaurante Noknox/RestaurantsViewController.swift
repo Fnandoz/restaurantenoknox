@@ -36,7 +36,7 @@ class RestaurantsViewController: UIViewController, UITableViewDelegate, UITableV
         let cell = tableView.dequeueReusableCell(withIdentifier: "restaurantCell", for: indexPath)
         let restaurant = restaurants[indexPath.row]
         cell.textLabel?.text = restaurant.name
-        cell.detailTextLabel?.text = "⭑ \(restaurant.rating ?? "")"
+        cell.detailTextLabel?.text = "⭑ \(restaurant.rating ?? "-")"
         return cell
     }
     
