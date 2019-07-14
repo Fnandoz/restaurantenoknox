@@ -2,4 +2,54 @@
 <Bucket
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Restaurante Noknox/CuisineViewController.swift"
+            timestampString = "584834530.5586621"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Restaurante_Noknox.CuisineViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Restaurante Noknox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fernandogomes/Projetos/Restaurante%20Noknox/Restaurante%20Noknox/CuisineViewController.swift"
+                  timestampString = "584837093.881968"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "1128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Restaurante_Noknox.Cuisine&gt;) -&gt; () in Restaurante_Noknox.CuisineViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Restaurante Noknox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fernandogomes/Projetos/Restaurante%20Noknox/Restaurante%20Noknox/CuisineViewController.swift"
+                  timestampString = "584837093.885242"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "86">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

@@ -34,7 +34,9 @@ class LoginViewController: UIViewController {
     }
     
     func goToCuisineViewController() {
-        self.performSegue(withIdentifier: "cuisineSegue", sender: self)
+//        self.performSegue(withIdentifier: "cuisineSegue", sender: self)
+        let cuisineVC = self.storyboard?.instantiateViewController(withIdentifier: "cuisineVC") as! CuisineViewController
+        self.navigationController?.pushViewController(cuisineVC, animated: true)
     }
     
     /*
